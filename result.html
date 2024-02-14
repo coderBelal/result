@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <form>
+        <div class="book1">
+          <label>Bangla</label>
+          <input id="bookOne" type="number" name="" placeholder="Marks" />
+        </div>
+        <div class="book2">
+          <label>English</label>
+          <input id="bookTwo" type="number" name="" placeholder="Marks" />
+        </div>
+        <div class="book3">
+          <label>Math</label>
+          <input id="bookThree" type="number" name="" placeholder="Marks" />
+        </div>
+        <div class="book4">
+          <label>Biology</label>
+          <input id="bookFour" type="number" name="" placeholder="Marks" />
+        </div>
+        <div class="book5">
+          <label>Physics</label>
+          <input id="bookFive" type="number" name="" placeholder="Marks" />
+        </div>
+        <div class="book6">
+          <label>Chemistry</label>
+          <input id="bookSix" type="number" name="" placeholder="Marks" />
+        </div>
+        <div><button onclick="return calculate()">Calculate</button></div>
+      </form>
+      <div>
+        <table>
+          <tr>
+            <td>Total Marks:</td>
+            <td>500</td>
+          </tr>
+          <tr>
+            <td>Obtained Marks:</td>
+            <td id="obtain"></td>
+          </tr>
+          <tr>
+            <td>Percentage:</td>
+            <td id="per"></td>
+          </tr>
+          <tr>
+            <td>Garde:</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Remark:</td>
+            <td id="remark"></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <script src="result.js"></script>
+  </body>
+</html>
