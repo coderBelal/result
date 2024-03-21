@@ -1,11 +1,13 @@
 function calculate() {
-  var a = parseInt(document.getElementById("bookOne"));
+  event.preventDefault();
+
+  var a = parseInt(document.getElementById("bookOne").value);
   console.log(a);
-  var b = parseInt(document.getElementById("bookTwo"));
-  var c = parseInt(document.getElementById("bookThree"));
-  var d = parseInt(document.getElementById("bookFour"));
-  var e = parseInt(document.getElementById("bookFive"));
-  var f = parseInt(document.getElementById("bookSix"));
+  var b = parseInt(document.getElementById("bookTwo").value);
+  var c = parseInt(document.getElementById("bookThree").value);
+  var d = parseInt(document.getElementById("bookFour").value);
+  var e = parseInt(document.getElementById("bookFive").value);
+  var f = parseInt(document.getElementById("bookSix").value);
 
   if (a > 100 || b > 100 || c > 100 || d > 100 || e > 100 || f > 100) {
     alert("Please Enter Correct Number");
